@@ -1,0 +1,43 @@
+CREATE TABLE Persons (
+    PersonID int,
+    LastName text,
+    FirstName text,
+    Address text,
+    City text
+);
+
+INSERT INTO Persons 
+(PersonID,LastName,FirstName,Address,City) 
+VALUES 
+(1, Puri, Vishal, Delhi, Delhi);
+
+INSERT INTO Persons 
+(PersonID,LastName,FirstName,Address,City) 
+VALUES 
+(2, Venki, Vishwas, Bangalore, Bengaluru);
+
+INSERT INTO Persons 
+(PersonID,LastName,FirstName,Address,City) 
+VALUES 
+(3, Hellrung, Nathan, Texas, Dallas);
+
+INSERT INTO Persons 
+(PersonID,LastName,FirstName,Address,City) 
+VALUES 
+(4, Abbas, Omar, Texas, Austin);
+
+INSERT INTO Persons 
+(PersonID,LastName,FirstName,Address,City) 
+VALUES 
+(5, Sterwart, Arthur, USA, Las Vegas);
+
+delete from persons where FirstName = 'Vishal';
+
+-(done)datatypes for create table working only with lowercase
+-cannot create the same table name again 
+-(done)delete commnad should have where condition case-senstive and with single quotes
+-(done)change the prompt
+-(done)LONG, YEAR, FLoat, time datatypes missing
+-(done)remove the apache import from commands.java
+- meeting invite
+
